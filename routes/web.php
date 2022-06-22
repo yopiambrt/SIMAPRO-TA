@@ -17,8 +17,9 @@ use App\Http\Controllers\MawaController;
 |
 */
 
+// Homepage
 Route::get('/', function () {
-    return view('welcome');
+    return view('template/homepage');
 });
 
 //admin
